@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Channel</title>
+   <link rel='stylesheet' href='https://tvsport.pages.dev/style.css' crossorigin='anonymous'/>
+   <script src="https://pisionx.pages.dev/dazn.js"></script>
+<style>
+     body {
+            background: #000; /* url('https://pidio.pages.dev/img/timnas.jpg') no-repeat center center fixed;*/
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Ubah ke flex-start agar konten dimulai dari atas */
+            h3 {
+            color: rgb(246, 246, 248);
+            font-size: 0.8rem; /* Tingkatkan ukuran font untuk header */
+            margin: 0; /* Hapus margin untuk mengatur posisi header */
+        }
+
+    
+
+    .channel {
+      background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            font-size: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+   .channel:hover {
+      transform: scale(1.05);
+    }
+
+
+    .channel img {
+      width: 100%;
+            max-height: 50px;
+            object-fit: contain;
+            margin-bottom: 5px;
+        }
+    .channel a {
+      text-decoration: none;
+      font-weight: bold;
+            color: #34495e;
+        }
+
+    button#refreshBtn {
+      background-color: white;
+      color: black;
+      border: none;
+      padding: 10px 5px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-bottom: 20px;
+      transition: background 0.2s;
+    }
+
+    button#refreshBtn:hover {
+      background-color: blue;
+    }
+
+    footer {
+      margin-bottom: 15px;
+    }
+
+    footer h3 {
+      color: rgb(246, 246, 248);
+      font-size: 0.8rem;
+      margin: 0;
+      text-align: center;
+    }
+  </style>
+   <script type='text/javascript' src='//pl27364347.effectivegatecpm.com/43/6d/57/436d57638d6f3b298f07f4242ce6eab7.js'></script>
+ 
+</head>
+<body>
+
+  <div class="channel-grid" id="channelGrid"></div>
+ <!-- <button id="refreshBtn">🔄 Kalau Eror Semua Klik ini Bwang</button>
+  -->
+  <footer><h3>&copy; HATI HATI KEGOCEK IKLAN</h3></footer>
+
+  <script>
+    const dataUrl = "https://tvsport.pages.dev/data/menu.js";
+
+    function getGroupId() {
+      const p = new URLSearchParams(window.location.search);
+      return p.get("id") || "bsl1";
+    }
+
+    async function loadChannels() {
+      const grid = document.getElementById("channelGrid");
+      const selectedGroup = getGroupId();
+      grid.innerHTML = `<p>Loading Bang Hehehehe: ${selectedGroup}</p>`;
+
+      try {
+        const res = await fetch(dataUrl + "?t=" + Date.now());
+        const data = await res.json();
+        const { channels, groups } = data;
+
+        grid.innerHTML = "";
+        const list = groups[selectedGroup];
+        if (!list) {
+          grid.innerHTML = `<p style="color:red;">Kalau "${selectedGroup}" Lagi Diperbaiki Bwangg Hehehe</p>`;
+          return;
+        }
+
+        list.forEach(id => {
+          const ch = channels[id];
+          if (!ch) return;
+          const el = document.createElement("div");
+          el.className = "channel";
+          el.innerHTML = `
+            <a href="${ch.href}">
+              <img src="${ch.img}" alt="${ch.name}">
+              <div>${ch.name}</div>
+            </a>
+          `;
+          grid.appendChild(el);
+        });
+
+      } catch (e) {
+        grid.innerHTML = `<p style="color:red;">Eror Bang Hehehehehe: ${e.message}</p>`;
+      }
+    }
+
+    loadChannels();
+    document.getElementById("refreshBtn").onclick = () => location.reload();
+  </script>
+
+</body>
+</html>
