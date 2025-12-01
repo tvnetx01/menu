@@ -2,9 +2,9 @@
   "groups": {
     
     "eropa": [ "epl", "laliga", "seriea", "bundesliga", "ligue1", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
-    "asia": [ "bein2uk", "ap1sr", "bein2vp", "bein2sg", "dazn1de", "zsport1", "skyllmx", "lltv", "m10", "ms10"],
-    "indonesia": [ "bein2uk", "ap1sr", "bein2vp", "bein2sg", "dazn1de", "zsport1", "m10", "ms10", "skyllmx", "lltv"],
-    "tvnasional": [ "bein2uk", "ap1sr", "bein2vp", "bein2sg", "skyllmx", "lltv", "zsport2", "m10", "ms10"],
+    "asia": [ "arab", "korea", "jepang", "thailand", "malaysia", "vietnam", "singapura", "australia", "indonesia"],
+    "indonesia": [ "liga1", "liga2", "proliga", "futsal"],
+    "tvnasional": [ "rcti", "ap1sr", "bein2vp", "bein2sg", "skyllmx", "lltv", "zsport2", "m10", "ms10"],
     "tvsports": ["vvip", "bein2uk", "bein3vp", "bein3sg", "zsport2", "ap2sr", "zsport1", "skyllmx", "lltv", "m10", "ms10"],
     
     "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"]},
