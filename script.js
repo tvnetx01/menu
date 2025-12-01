@@ -13,6 +13,26 @@
 
   "channels": {
 
+      "liga1": {
+      "name": "SUPER LEAGUE",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/72/BRI_Super_League_Indonesia.svg",
+      "href": "go:liga1"},
+    
+      "liga2": {
+      "name": "INDONESIAN CHAMPIONSHIP",
+      "img": "https://assets.ligaindonesiabaru.com/assets/img/competition-logo/89.png",
+      "href": "go:liga2"},
+    
+      "proliga": {
+      "name": "PROLIGA",
+      "img": "https://upload.wikimedia.org/wikipedia/id/thumb/6/65/Logo_Proliga.png/250px-Logo_Proliga.png",
+      "href": "go:proliga"},
+    
+      "futsalpro": {
+      "name": "FUTAL PRO LEAGUE",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/9/9c/LOGO_PRO_FUTSAL_LEAGUE_2025.png",
+      "href": "go:futsal"},
+    
       "epl": {
       "name": "PREMIER LEAGUE",
       "img": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
