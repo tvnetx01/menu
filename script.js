@@ -6,7 +6,10 @@
     "indonesia": [ "liga1", "liga2", "proliga", "futsal"],
     "tvnasional": [ "rctivp", "rctihd", "mnctvvp", "gtvvp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
     "tvsports": ["vvip", "bein2uk", "bein3vp", "bein3sg", "zsport2", "ap2sr", "zsport1", "skyllmx", "lltv", "m10", "ms10"],
-    
+
+
+   "streamalt": [ "score808", "mystake", "ppv"],
+   
     "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"]},
 
 
@@ -114,7 +117,20 @@
 
 
 
+      "score808": {
+      "name": "RCTI V+",
+      "img": "https://apkjaka.com/uploads/2025/03/tigoals-icon.jpg",
+      "href": "go:caf"},
 
+     "mystake": {
+      "name": "MY STAKE",
+      "img": "https://static.inpcdn.com/18,04b5d3e2c1ba6c.jpg",
+      "href": "go:unl"},
+
+     "ppv": {
+      "name": "PPV TO",
+      "img": "https://ppv.to/assets/img/ppv_to.png",
+      "href": "go:eredivisi5"},
 
 
 
