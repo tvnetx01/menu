@@ -118,7 +118,7 @@
 
 
       "score808": {
-      "name": "RCTI V+",
+      "name": "SCORE 808",
       "img": "https://apkjaka.com/uploads/2025/03/tigoals-icon.jpg",
       "href": "go:caf"},
 
