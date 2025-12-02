@@ -135,25 +135,25 @@
         "mnctvvp": {
       "name": "MNCTV V+",
       "img": "https://www.visionplus.id/images/repository/581/581-LOGO-m.png",
-      "href": "go:jtvvp"},
+      "href": "go:mnctvvp"},
 
         
         "gtvvp": {
       "name": "GTV V+",
       "img": "https://www.visionplus.id/images/repository/582/582-LOGO-m.png",
-      "href": "go:jtvvp"},
+      "href": "go:gtvvp"},
 
         
         "sctvfm": {
       "name": "SCTV FM",
       "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/SCTV_Logo.svg",
-      "href": "go:jtvvp"},
+      "href": "go:sctvfm"},
 
         
         "sctvvp": {
       "name": "SCTV V+",
       "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/SCTV_Logo.svg",
-      "href": "go:jtvvp"},
+      "href": "go:sctvvp"},
 
         "indosiarvp": {
       "name": "INDOSIAR V+",
@@ -169,18 +169,18 @@
       "mofivp": {
       "name": "MOJI V+",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/1024px-Moji_blue.svg.png",
-      "href": "go:jtvvp"},
+      "href": "go:mojivp"},
 
       "mojifm": {
       "name": "MOJI FM",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/1024px-Moji_blue.svg.png",
-      "href": "go:jtvvp"},
+      "href": "go:mojifm"},
 
 
       "mentarivp": {
       "name": "MENTARI V+",
       "img": "https://upload.wikimedia.org/wikipedia/commons/7/78/Mentari_TV.png",
-      "href": "go:jtvvp"},
+      "href": "go:mentarivp"},
 
 
       "inewitv": {
