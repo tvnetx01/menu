@@ -122,25 +122,25 @@
         
      "rctivp": {
       "name": "RCTI V+",
-      "img": "https://www.visionplus.id/images/repository/580/580-LOGO-m.png",
+      "img": "https://static.rctiplus.id/media//300//files/fta_rcti/Channel_Logo/RCTI.png",
       "href": "go:rctivp"},
 
         
         "rctihd": {
       "name": "RCTI R+",
-      "img": "https://www.visionplus.id/images/repository/580/580-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/id/thumb/d/d0/RCTI+.svg/1200px-RCTI+.svg.png",
       "href": "go:rctihd"},
 
         
         "mnctvvp": {
       "name": "MNCTV V+",
-      "img": "https://www.visionplus.id/images/repository/581/581-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/MNCTV_logo.png",
       "href": "go:mnctvvp"},
 
         
         "gtvvp": {
       "name": "GTV V+",
-      "img": "https://www.visionplus.id/images/repository/582/582-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_(2017).svg/1200px-GTV_(2017).svg.png",
       "href": "go:gtvvp"},
 
         
@@ -185,99 +185,99 @@
 
       "inewitv": {
       "name": "INEWS V+",
-      "img": "https://www.visionplus.id/images/repository/583/583-LOGO-m.png",
+      "img": "https://e.sindonews.net/mobile/2016/images/tv/live-inewstv.png",
       "href": "go:inewsitv"},
 
 
       "transtvvp": {
       "name": "TRANSTV V+",
-      "img": "https://www.visionplus.id/images/repository/585/585-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_Trans_TV.png",
       "href": "go:transtvvp"},
 
 
         "trans7vp": {
       "name": "TRANS7 V+",
-      "img": "https://www.visionplus.id/images/repository/586/586-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/9/96/Logo_Trans7.png",
       "href": "go:trans7vp"},
    
      "antvvp": {
       "name": "ANTV V+",
-      "img": "https://www.visionplus.id/images/repository/587/587-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/1200px-Antv_logo.svg.png",
       "href": "go:antvvp"},
 
         
         "antvfm": {
       "name": "ANTV FM ",
-      "img": "https://www.visionplus.id/images/repository/587/587-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/1200px-Antv_logo.svg.png",
       "href": "go:antvfm"},
 
         
         "antvitv": {
       "name": "ANTV INDI",
-      "img": "https://www.visionplus.id/images/repository/587/587-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/1200px-Antv_logo.svg.png",
       "href": "go:antvitv"},
 
         
         "tvonevp": {
       "name": "TVONE V+",
-      "img": "https://www.visionplus.id/images/repository/589/589-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/9/91/TvOne_2023.svg",
       "href": "go:tvonevp"},
 
         
         "kompasvp": {
       "name": "KOMPASTV V+",
-      "img": "https://www.visionplus.id/images/repository/590/590-LOGO-m.png",
+      "img": "https://thumbor.prod.vidiocdn.com/a40X8H7Ucomd7pN77vT3gwG4lRA=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/874/kompas-tv-98863c.jpg",
       "href": "go:kompasvp"},
 
         
         "rtvvp": {
       "name": "RTV V+",
-      "img": "https://www.visionplus.id/images/repository/588/588-LOGO-m.png",
+      "img": "https://thumbor.prod.vidiocdn.com/ysF_pJFLhGCG8XitGI4bcpoJ7ZQ=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/1561/rtv-48c719.jpg",
       "href": "go:rtvvp"},
 
         "metrovp": {
       "name": "METRO V+",
-      "img": "https://www.visionplus.id/images/repository/591/591-LOGO-m.png",
+      "img": "https://thumbor.prod.vidiocdn.com/3f1SUZvUgp_5WlH1xqSYL6Mnz_E=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/777/metro-tv-2eba56.jpg",
       "href": "go:metrovp"},
 
         
       "tvrivp": {
       "name": "TVRI V+",
-      "img": "https://www.visionplus.id/images/repository/593/593-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/1200px-TVRILogo2019.svg.png",
       "href": "go:tvrivp"},
 
       "daitvvp": {
       "name": "DAAI V+",
-      "img": "https://www.visionplus.id/images/repository/595/595-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/DAAI_TV.svg/2560px-DAAI_TV.svg.png",
       "href": "go:daitvvp"},
 
       "mdtvvp": {
       "name": "MDTV V+",
-      "img": "https://www.visionplus.id/images/repository/334/320334-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/8/89/MDTV_logo.svg",
       "href": "go:mdtvvp"},
 
 
       "bandungvp": {
       "name": "BANDUNG V+",
-      "img": "https://www.visionplus.id/images/repository/600/600-LOGO-m.png",
+      "img": "https://topcareer.id/wp-content/uploads/2020/07/Logo_bdg_tv_2016.png",
       "href": "go:bandungvp"},
 
 
       "jaktvvp": {
       "name": "JAKTV V+",
-      "img": "https://www.visionplus.id/images/repository/598/598-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/id/thumb/8/8c/Jak_tv_(2010).png/250px-Jak_tv_(2010).png",
       "href": "go:jaktvvp"},
 
 
       "balivp": {
       "name": "BALITV V+",
-      "img": "https://www.visionplus.id/images/repository/700/700-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/id/b/b9/BaliTV_2014.png",
       "href": "go:balivp"},
 
 
         "jtvvp": {
       "name": "JTV V+",
-      "img": "https://www.visionplus.id/images/repository/856/856-LOGO-m.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/JTV_(Indonesian_TV_channel)_2022.svg/250px-JTV_(Indonesian_TV_channel)_2022.svg.png",
       "href": "go:jtvvp"
    
     }
