@@ -182,7 +182,7 @@
         "trans7vp": {
       "name": "TRANS7 V+",
       "img": "https://www.visionplus.id/images/repository/586/586-LOGO-m.png",
-      "href": "go:trans7vp"
+      "href": "go:trans7vp"},
    
      "antvvp": {
       "name": "ANTV V+",
