@@ -4,7 +4,7 @@
     "eropa": [ "epl", "laliga", "seriea", "bundesliga", "ligue1", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
     "asia": [ "arab", "korea", "jepang", "thailand", "malaysia", "vietnam", "singapura", "australia", "indonesia"],
     "indonesia": [ "liga1", "liga2", "proliga", "futsal"],
-    "tvnasional": [ "rcti", "ap1sr", "bein2vp", "bein2sg", "skyllmx", "lltv", "zsport2", "m10", "ms10"],
+    "tvnasional": [ "rctivp", "rctihd", "mnctvvp", "gtvvp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
     "tvsports": ["vvip", "bein2uk", "bein3vp", "bein3sg", "zsport2", "ap2sr", "zsport1", "skyllmx", "lltv", "m10", "ms10"],
     
     "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"]},
