@@ -9,6 +9,7 @@
 
 
    "streamalt": [ "score808", "mystake", "ppv"],
+   "seagames": [ "mewatch", "vplus", "rplus"],
    
     "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"]},
 
@@ -132,6 +133,22 @@
       "img": "https://ppv.to/assets/img/ppv_to.png",
       "href": "go:eredivisi5"},
 
+
+    "mewatch": {
+      "name": "MEWATCH",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10294130'&EntityType='Page'&EntityId='583113'&Width=900&Height=507&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",
+      "href": "go:uel1"},
+
+   "vplus": {
+      "name": "VISION+",
+      "img": "https://blog.visionplus.id/wp-content/uploads/2022/08/Desain-tanpa-judul-7-1140x641.jpg",
+      "href": "go:uel2"},
+
+
+   "rplus": {
+      "name": "RCTI+",
+      "img": "https://upload.wikimedia.org/wikipedia/id/thumb/d/d0/RCTI+.svg/1200px-RCTI+.svg.png",
+      "href": "go:uel3"},
 
 
     
