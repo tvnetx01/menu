@@ -179,7 +179,7 @@
 
       "mentarivp": {
       "name": "MENTARI V+",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mentari_TV.svg/1200px-Mentari_TV.svg.png",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mentari_TV.svg",
       "href": "go:jtvvp"},
 
 
