@@ -1,7 +1,7 @@
 {
   "groups": {
     
-    "eropa": [ "epl", "laliga", "seriea", "bundesliga", "ligue1", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
+    "eropa": [ "epl", "laliga", "seriea", "coppait", "bundesliga", "dfbpokal", "ligue1", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
     "asia": [ "arab", "korea", "jepang", "thailand", "malaysia", "vietnam", "singapura", "australia", "indonesia"],
     "indonesia": [ "liga1", "liga2", "proliga", "futsal"],
     "tvnasional": [ "rctivp", "rctihd", "mnctvvp", "gtvvp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
@@ -47,6 +47,11 @@
       "name": "SERIE A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/1649px-Serie_A.svg.png",
       "href": "go:seriea"},
+
+    "coppait": {
+      "name": "COPPA ITALIA",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Coppa_Italia_-_Logo_2019.svg/803px-Coppa_Italia_-_Logo_2019.svg.png",
+      "href": "go:seriea"},
     
       "ucl": {
       "name": "UEFA CHMPIONS LEAGUE",
@@ -85,7 +90,7 @@
     
       "carabao": {
       "name": "CARABAO CUP",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/2012_BWF_logo.svg/1200px-2012_BWF_logo.svg.png",
+      "img": "https://upload.wikimedia.org/wikipedia/id/thumb/0/0c/EFL_(Carabao)_Cup_Logo.svg/840px-EFL_(Carabao)_Cup_Logo.svg.png",
       "href": "go:epl"},
     
       "facup": {
@@ -97,12 +102,23 @@
       "name": "BUNDESLIGA",
       "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Bundesliga_logo_(2017).svg/1200px-Bundesliga_logo_(2017).svg.png",
       "href": "go:bundesliga"},
+    
+     "dfbpokal": {
+      "name": "DFB POKAL",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/DFB-Pokal_logo_2016.svg/868px-DFB-Pokal_logo_2016.svg.png",
+      "href": "go:bundesliga"},
 
 
 
 
 
 
+
+
+
+
+
+    
         
      "rctivp": {
       "name": "RCTI V+",
