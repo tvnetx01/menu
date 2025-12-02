@@ -96,7 +96,173 @@
       "bundesliga": {
       "name": "BUNDESLIGA",
       "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Bundesliga_logo_(2017).svg/1200px-Bundesliga_logo_(2017).svg.png",
-      "href": "go:bundesliga"
+      "href": "go:bundesliga",},
+
+
+
+
+
+
+        
+     "rctivp": {
+      "name": "RCTI V+",
+      "img": "https://www.visionplus.id/images/repository/580/580-LOGO-m.png",
+      "href": "go:rctivp"},
+
+        
+        "rctihd": {
+      "name": "RCTI R+",
+      "img": "https://www.visionplus.id/images/repository/580/580-LOGO-m.png",
+      "href": "go:rctihd"},
+
+        
+        "mnctvvp": {
+      "name": "MNCTV V+",
+      "img": "https://www.visionplus.id/images/repository/581/581-LOGO-m.png",
+      "href": "go:jtvvp"},
+
+        
+        "gtvvp": {
+      "name": "GTV V+",
+      "img": "https://www.visionplus.id/images/repository/582/582-LOGO-m.png",
+      "href": "go:jtvvp"},
+
+        
+        "sctvfm": {
+      "name": "SCTV FM",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/SCTV_Logo.svg",
+      "href": "go:jtvvp"},
+
+        
+        "sctvvp": {
+      "name": "SCTV V+",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/SCTV_Logo.svg",
+      "href": "go:jtvvp"},
+
+        "indosiarvp": {
+      "name": "INDOSIAR V+",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Indosiar_2015.svg",
+      "href": "go:indosiarvp"},
+
+        
+      "indosiarfm": {
+      "name": "INDOSIAR FM",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Indosiar_2015.svg",
+      "href": "go:indosiarfm"},
+
+      "mofivp": {
+      "name": "MOJI V+",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/1024px-Moji_blue.svg.png",
+      "href": "go:jtvvp"},
+
+      "mojifm": {
+      "name": "MOJI FM",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/1024px-Moji_blue.svg.png",
+      "href": "go:jtvvp"},
+
+
+      "mentarivp": {
+      "name": "MENTARI V+",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mentari_TV.svg/1200px-Mentari_TV.svg.png",
+      "href": "go:jtvvp"},
+
+
+      "inewitv": {
+      "name": "INEWS V+",
+      "img": "https://www.visionplus.id/images/repository/583/583-LOGO-m.png",
+      "href": "go:inewsitv"},
+
+
+      "transtvvp": {
+      "name": "TRANSTV V+",
+      "img": "https://www.visionplus.id/images/repository/585/585-LOGO-m.png",
+      "href": "go:transtvvp"},
+
+
+        "trans7vp": {
+      "name": "TRANS7 V+",
+      "img": "https://www.visionplus.id/images/repository/586/586-LOGO-m.png",
+      "href": "go:trans7vp"
+   
+     "antvvp": {
+      "name": "ANTV V+",
+      "img": "https://www.visionplus.id/images/repository/587/587-LOGO-m.png",
+      "href": "go:antvvp"},
+
+        
+        "antvfm": {
+      "name": "ANTV FM ",
+      "img": "https://www.visionplus.id/images/repository/587/587-LOGO-m.png",
+      "href": "go:antvfm"},
+
+        
+        "antvitv": {
+      "name": "ANTV INDI",
+      "img": "https://www.visionplus.id/images/repository/587/587-LOGO-m.png",
+      "href": "go:antvitv"},
+
+        
+        "tvonevp": {
+      "name": "TVONE V+",
+      "img": "https://www.visionplus.id/images/repository/589/589-LOGO-m.png",
+      "href": "go:tvonevp"},
+
+        
+        "kompasvp": {
+      "name": "KOMPASTV V+",
+      "img": "https://www.visionplus.id/images/repository/590/590-LOGO-m.png",
+      "href": "go:kompasvp"},
+
+        
+        "rtvvp": {
+      "name": "RTV V+",
+      "img": "https://www.visionplus.id/images/repository/588/588-LOGO-m.png",
+      "href": "go:rtvvp"},
+
+        "metrovp": {
+      "name": "METRO V+",
+      "img": "https://www.visionplus.id/images/repository/591/591-LOGO-m.png",
+      "href": "go:metrovp"},
+
+        
+      "tvrivp": {
+      "name": "TVRI V+",
+      "img": "https://www.visionplus.id/images/repository/593/593-LOGO-m.png",
+      "href": "go:tvrivp"},
+
+      "daitvvp": {
+      "name": "DAAI V+",
+      "img": "https://www.visionplus.id/images/repository/595/595-LOGO-m.png",
+      "href": "go:daitvvp"},
+
+      "mdtvvp": {
+      "name": "MDTV V+",
+      "img": "https://www.visionplus.id/images/repository/334/320334-LOGO-m.png",
+      "href": "go:mdtvvp"},
+
+
+      "bandungvp": {
+      "name": "BANDUNG V+",
+      "img": "https://www.visionplus.id/images/repository/600/600-LOGO-m.png",
+      "href": "go:bandungvp"},
+
+
+      "jaktvvp": {
+      "name": "JAKTV V+",
+      "img": "https://www.visionplus.id/images/repository/598/598-LOGO-m.png",
+      "href": "go:jaktvvp"},
+
+
+      "balivp": {
+      "name": "BALITV V+",
+      "img": "https://www.visionplus.id/images/repository/700/700-LOGO-m.png",
+      "href": "go:balivp"},
+
+
+        "jtvvp": {
+      "name": "JTV V+",
+      "img": "https://www.visionplus.id/images/repository/856/856-LOGO-m.png",
+      "href": "go:jtvvp"
    
     }
   }
