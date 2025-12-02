@@ -96,7 +96,7 @@
       "bundesliga": {
       "name": "BUNDESLIGA",
       "img": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Bundesliga_logo_(2017).svg/1200px-Bundesliga_logo_(2017).svg.png",
-      "href": "go:bundesliga",},
+      "href": "go:bundesliga"},
 
 
 
