@@ -9,7 +9,7 @@
 
 
    "streamalt": [ "score808", "mystake", "ppv"],
-   "seagames": [ "mewatch", "vplus", "rplus"],
+   "seagames": ["seag-football", "mewatch", "vplus", "rplus"],
    
     "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"]},
 
@@ -133,6 +133,10 @@
       "img": "https://ppv.to/assets/img/ppv_to.png",
       "href": "go:eredivisi5"},
 
+"seag-football": {
+      "name": "FOOTBALL",
+      "img": "https://assets.radarcirebon.tv/main/2025/12/11.-jadwal-sepak-bola-putra-sea-games-2025.webp",
+      "href": "go:ligue15"},
 
     "mewatch": {
       "name": "MEWATCH",
