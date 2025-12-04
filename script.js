@@ -135,7 +135,7 @@
 
 "seag-football": {
       "name": "FOOTBALL",
-      "img": "https://assets.radarcirebon.tv/main/2025/12/11.-jadwal-sepak-bola-putra-sea-games-2025.webp",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%2710535030%27&EntityType=%27Item%27&EntityId=%27229329%27&Width=336&Height=189&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
       "href": "go:ligue15"},
 
     "mewatch": {
