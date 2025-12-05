@@ -1,139 +1,118 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daftar Menu</title>
-   <link rel='stylesheet' href='style.css' crossorigin='anonymous'/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daftar Menu</title>
 
 <style>
-     body {
-            background: #000; /* url('https://pidio.pages.dev/img/timnas.jpg') no-repeat center center fixed;*/
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start; /* Ubah ke flex-start agar konten dimulai dari atas */
-            h3 {
-            color: rgb(246, 246, 248);
-            font-size: 0.8rem; /* Tingkatkan ukuran font untuk header */
-            margin: 0; /* Hapus margin untuk mengatur posisi header */
-        }
+  body {
+    background:#000;
+    margin:0;
+    padding:10px;
+    font-family: system-ui, sans-serif;
+  }
 
-    
+  /* --- GRID CHANNEL --- */
+  .channel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 12px;
+  }
 
-    .channel {
-      background-color: white;
-            padding: 10px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            text-align: center;
-            font-size: 12px;
-            cursor: pointer;
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
+  .channel {
+    background:#fff;
+    padding:10px;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.3);
+    transition:transform 0.15s ease;
+  }
 
-   .channel:hover {
-      transform: scale(1.05);
-    }
+  .channel:hover {
+    transform:scale(1.05);
+  }
 
+  .channel img {
+    width:100%;
+    max-height:55px;
+    object-fit:contain;
+    margin-bottom:6px;
+  }
 
-    .channel img {
-      width: 100%;
-            max-height: 50px;
-            object-fit: contain;
-            margin-bottom: 5px;
-        }
-    .channel a {
-      text-decoration: none;
-      font-weight: bold;
-            color: #34495e;
-        }
+  .channel a {
+    text-decoration:none;
+    color:#222;
+    font-weight:600;
+  }
 
-    button#refreshBtn {
-      background-color: white;
-      color: black;
-      border: none;
-      padding: 10px 5px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 14px;
-      margin-bottom: 20px;
-      transition: background 0.2s;
-    }
+  footer {
+    margin-top:25px;
+    text-align:center;
+  }
 
-    button#refreshBtn:hover {
-      background-color: blue;
-    }
+  footer h3 {
+    color:#fff;
+    font-size:0.8rem;
+    margin:0;
+  }
+</style>
 
-    footer {
-      margin-bottom: 15px;
-    }
-
-    footer h3 {
-      color: rgb(246, 246, 248);
-      font-size: 0.8rem;
-      margin: 0;
-      text-align: center;
-    }
-  </style>
-  <script type='text/javascript' src='//zoologicalmanufacture.com/7f/71/5f/7f715ff329f17d4c30e1a47d4acb70cf.js'></script> 
 </head>
 <body>
 
-  <div class="channel-grid" id="channelGrid"></div>
- <!-- <button id="refreshBtn">🔄 Kalau Eror Semua Klik ini Bwang</button>
-  -->
-  <footer><h3>&copy; HATI HATI KEGOCEK IKLAN</h3></footer>
+<div class="channel-grid" id="channelGrid"></div>
 
-  <script>
-    const dataUrl = "script.js";
+<footer><h3>&copy; HATI HATI KEGOCEK IKLAN</h3></footer>
 
-    function getGroupId() {
-      const p = new URLSearchParams(window.location.search);
-      return p.get("id") || "bsl1";
-    }
+<script>
+  const dataUrl = "script.js";
 
-    async function loadChannels() {
-      const grid = document.getElementById("channelGrid");
-      const selectedGroup = getGroupId();
-      grid.innerHTML = `<p>Loading Bang Hehehehe: ${selectedGroup}</p>`;
+  function getGroupId() {
+    const p = new URLSearchParams(location.search);
+    return p.get("id") || "bsl1";
+  }
 
-      try {
-        const res = await fetch(dataUrl + "?t=" + Date.now());
-        const data = await res.json();
-        const { channels, groups } = data;
+  async function loadChannels() {
+    const grid = document.getElementById("channelGrid");
+    const selectedGroup = getGroupId();
+    grid.innerHTML = `<p style="color:white;">Loading Bang: ${selectedGroup}</p>`;
 
-        grid.innerHTML = "";
-        const list = groups[selectedGroup];
-        if (!list) {
-          grid.innerHTML = `<p style="color:red;">Kalau "${selectedGroup}" Lagi Diperbaiki Bwangg Hehehe</p>`;
-          return;
-        }
+    try {
+      const res = await fetch(dataUrl + "?t=" + Date.now());
+      const data = await res.json();
+      const { channels, groups } = data;
 
-        list.forEach(id => {
-          const ch = channels[id];
-          if (!ch) return;
-          const el = document.createElement("div");
-          el.className = "channel";
-          el.innerHTML = `
-            <a href="${ch.href}">
-              <img src="${ch.img}" alt="${ch.name}">
-              <div>${ch.name}</div>
-            </a>
-          `;
-          grid.appendChild(el);
-        });
-
-      } catch (e) {
-        grid.innerHTML = `<p style="color:red;">Eror Bang Hehehehehe: ${e.message}</p>`;
+      grid.innerHTML = "";
+      const list = groups[selectedGroup];
+      if (!list) {
+        grid.innerHTML = `<p style="color:red;">Group "${selectedGroup}" Lagi Diperbaiki</p>`;
+        return;
       }
-    }
 
-    loadChannels();
-    document.getElementById("refreshBtn").onclick = () => location.reload();
-  </script>
+      list.forEach(id => {
+        const ch = channels[id];
+        if (!ch) return;
+
+        const el = document.createElement("div");
+        el.className = "channel";
+        el.innerHTML = `
+          <a href="${ch.href}">
+            <img src="${ch.img}" alt="${ch.name}">
+            <div>${ch.name}</div>
+          </a>
+        `;
+        grid.appendChild(el);
+      });
+
+    } catch (e) {
+      grid.innerHTML = `<p style="color:red;">Eror: ${e.message}</p>`;
+    }
+  }
+
+  loadChannels();
+</script>
 
 </body>
 </html>
