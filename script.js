@@ -11,8 +11,7 @@
    "streamalt": [ "score808", "mystake", "ppv"],
    "seagames": ["seag-football", "mewatch", "vplus", "rplus"],
    
-   "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"]},
-
+   "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"],
    "race": ["motogp", "f1", "wsbk"]},
 
 
