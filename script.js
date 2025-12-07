@@ -11,8 +11,9 @@
    "streamalt": [ "score808", "mystake", "ppv"],
    "seagames": ["seag-football", "mewatch", "vplus", "rplus"],
    
-    "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"]},
+   "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"]},
 
+   "race": ["motogp", "f1", "wsbk"]},
 
 
   "channels": {
@@ -111,6 +112,21 @@
       "name": "DFB POKAL",
       "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/DFB-Pokal_logo_2016.svg/868px-DFB-Pokal_logo_2016.svg.png",
       "href": "go:bundesliga"},
+
+     "motogp": {
+      "name": "MOTO GP",
+      "img": "https://1000logos.net/wp-content/uploads/2021/03/MotoGP-Logo.png",
+      "href": "go:motogp"},
+
+      "f1": {
+      "name": "FORMULA 1",
+      "img": "https://logos-world.net/wp-content/uploads/2023/12/F1-Logo.png",
+      "href": "go:f1"},
+
+     "wsbk": {
+      "name": "WSBK",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Superbike_World_Championship_logo_(stacked,_2022).svg/1200px-Superbike_World_Championship_logo_(stacked,_2022).svg.png",
+      "href": "go:wsbk"},
 
 
 
