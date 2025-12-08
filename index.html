@@ -58,10 +58,35 @@
     margin:0;
   }
 </style>
-<script type='text/javascript' src='//zoologicalmanufacture.com/7f/71/5f/7f715ff329f17d4c30e1a47d4acb70cf.js'></script> 
+
+<script type='text/javascript' src='//zoologicalmanufacture.com/b8/7e/35/b87e35bccedca28bf659791ae5ed3cab.js'></script>
 
 </head>
 <body>
+
+<!-- ================================
+     CEK IFRAME DARI CONFIG JSON
+================================= -->
+<script>
+(async () => {
+  try {
+    const cfgUrl = "https://channel01-tvnetx01.pages.dev/allo.js"
+    const res = await fetch(cfgUrl);
+    const cfg = await res.json();
+
+    if (cfg.redirect_if_not_iframe) {
+      const insideIframe = window.top !== window.self;
+      if (!insideIframe) {
+        window.location.replace(cfg.redirect_url || "https://google.com");
+      }
+    }
+
+  } catch (e) {
+    console.warn("Gagal load config:", e);
+  }
+})();
+</script>
+
 
 <div class="channel-grid" id="channelGrid"></div>
 
