@@ -9,7 +9,7 @@
 
 
    "streamalt": [ "score808", "mystake", "ppv"],
-   "seagames": ["seag-football", "mewatch", "vplus", "rplus"],
+   "seagames": ["seag-football", "seag-badminton", "mewatch", "vplus", "rplus"],
    
    "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"],
    "race": ["motogp", "f1", "wsbk"]},
@@ -152,6 +152,11 @@
       "name": "FOOTBALL",
       "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%2710535030%27&EntityType=%27Item%27&EntityId=%27229329%27&Width=336&Height=189&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
       "href": "go:ligue15"},
+
+"seag-badminton": {
+      "name": "FOOTBALL",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=45&ImageId=%2710604489%27&EntityType=%27Item%27&EntityId=%27229966%27&Width=448&Height=252&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:ligue14"},
 
     "mewatch": {
       "name": "MEWATCH",
