@@ -9,7 +9,7 @@
 
 
    "streamalt": [ "score808", "mystake", "ppv"],
-   "seagames": ["seag-football", "seag-badminton", "mewatch", "vplus", "rplus"],
+   "seagames": ["seag-medali", "seag-football", "seag-badminton", "mewatch", "vplus", "rplus"],
    
    "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"],
    "race": ["motogp", "f1", "wsbk"]},
@@ -148,6 +148,11 @@
       "img": "https://ppv.to/assets/img/ppv_to.png",
       "href": "go:eredivisi5"},
 
+"seag-medali": {
+      "name": "MEDALY SEMENTARA",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=45&ImageId=%2710658676%27&EntityType=%27Item%27&EntityId=%27587836%27&Width=448&Height=336&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:uel3"},
+
 "seag-football": {
       "name": "FOOTBALL",
       "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%2710535030%27&EntityType=%27Item%27&EntityId=%27229329%27&Width=336&Height=189&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
@@ -159,18 +164,18 @@
       "href": "go:ligue14"},
 
     "mewatch": {
-      "name": "MEWATCH ALL SPORTS",
+      "name": "ALL SPORTS (MEWATCH)",
       "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10294130'&EntityType='Page'&EntityId='583113'&Width=900&Height=507&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",
       "href": "go:uel6"},
 
    "vplus": {
-      "name": "VISION+ ALL SPORTS",
+      "name": "ALL SPORTS (VISION+)",
       "img": "https://blog.visionplus.id/wp-content/uploads/2022/08/Desain-tanpa-judul-7-1140x641.jpg",
       "href": "go:uel5"},
 
 
    "rplus": {
-      "name": "RCTI+ ALL SPORTS",
+      "name": "ALL SPORTS (RCTI+)",
       "img": "https://upload.wikimedia.org/wikipedia/id/thumb/d/d0/RCTI+.svg/1200px-RCTI+.svg.png",
       "href": "go:uel4"},
 
