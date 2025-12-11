@@ -13,7 +13,36 @@
     font-family: system-ui, sans-serif;
   }
 
-  /* --- GRID CHANNEL --- */
+  /* ==========================
+            SPINNER
+  =========================== */
+  #loading-spinner {
+    position: fixed;
+    top:0; left:0;
+    width:100%; height:100%;
+    background: rgba(0,0,0,0.85);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+  }
+
+  .spinner {
+    width:60px;
+    height:60px;
+    border:6px solid #444;
+    border-top-color:#09f;
+    border-radius:50%;
+    animation:spin 0.9s linear infinite;
+  }
+
+  @keyframes spin {
+    to { transform:rotate(360deg); }
+  }
+
+  /* ==========================
+           GRID CHANNEL
+  =========================== */
   .channel-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
@@ -59,10 +88,32 @@
   }
 </style>
 
-<script type='text/javascript' src='//zoologicalmanufacture.com/b8/7e/35/b87e35bccedca28bf659791ae5ed3cab.js'></script>
-
+<script type="text/javascript" src="//zoologicalmanufacture.com/7f/71/5f/7f715ff329f17d4c30e1a47d4acb70cf.js"></script>
 </head>
 <body>
+
+<!-- ==========================
+       SPINNER OVERLAY
+=========================== -->
+<div id="loading-spinner">
+  <div class="spinner"></div>
+</div>
+
+<script>
+// Hilangkan spinner setelah load halaman
+window.addEventListener("load", () => {
+  document.getElementById("loading-spinner").style.display = "none";
+});
+
+// Spinner ketika klik link apa pun
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("a").forEach(a => {
+    a.addEventListener("click", () => {
+      document.getElementById("loading-spinner").style.display = "flex";
+    });
+  });
+});
+</script>
 
 <!-- ================================
      CEK IFRAME DARI CONFIG JSON
@@ -70,7 +121,7 @@
 <script>
 (async () => {
   try {
-    const cfgUrl = "https://channel01-tvnetx01.pages.dev/allo.js"
+    const cfgUrl = "https://channel01-tvnetx01.pages.dev/allo.js";
     const res = await fetch(cfgUrl);
     const cfg = await res.json();
 
@@ -87,7 +138,6 @@
 })();
 </script>
 
-
 <div class="channel-grid" id="channelGrid"></div>
 
 <footer><h3>&copy; HATI HATI KEGOCEK IKLAN</h3></footer>
@@ -103,7 +153,9 @@
   async function loadChannels() {
     const grid = document.getElementById("channelGrid");
     const selectedGroup = getGroupId();
-    grid.innerHTML = `<p style="color:white;">Loading Bang: ${selectedGroup}</p>`;
+
+    // Spinner ON
+    document.getElementById("loading-spinner").style.display = "flex";
 
     try {
       const res = await fetch(dataUrl + "?t=" + Date.now());
@@ -112,6 +164,7 @@
 
       grid.innerHTML = "";
       const list = groups[selectedGroup];
+
       if (!list) {
         grid.innerHTML = `<p style="color:red;">Group "${selectedGroup}" Lagi Diperbaiki</p>`;
         return;
@@ -134,6 +187,11 @@
 
     } catch (e) {
       grid.innerHTML = `<p style="color:red;">Eror: ${e.message}</p>`;
+    } finally {
+      // Spinner OFF
+      setTimeout(() => {
+        document.getElementById("loading-spinner").style.display = "none";
+      }, 400);
     }
   }
 
