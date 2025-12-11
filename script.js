@@ -65,7 +65,7 @@
       "uel": {
       "name": "UEFA EUROPA LEAGUE",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/UEFA_Europa_League_logo_(2024_version).svg/1436px-UEFA_Europa_League_logo_(2024_version).svg.png",
-      "href": "go:uel"},
+      "href": "go:ucl"},
     
       "uecl": {
       "name": "UEFA EURO CONFERANCE LEAGUE",
