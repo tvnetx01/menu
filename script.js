@@ -159,18 +159,18 @@
       "href": "go:ligue14"},
 
     "mewatch": {
-      "name": "MEWATCH",
+      "name": "MEWATCH ALL SPORTS",
       "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10294130'&EntityType='Page'&EntityId='583113'&Width=900&Height=507&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",
       "href": "go:uel6"},
 
    "vplus": {
-      "name": "VISION+",
+      "name": "VISION+ ALL SPORTS",
       "img": "https://blog.visionplus.id/wp-content/uploads/2022/08/Desain-tanpa-judul-7-1140x641.jpg",
       "href": "go:uel5"},
 
 
    "rplus": {
-      "name": "RCTI+",
+      "name": "RCTI+ ALL SPORTS",
       "img": "https://upload.wikimedia.org/wikipedia/id/thumb/d/d0/RCTI+.svg/1200px-RCTI+.svg.png",
       "href": "go:uel4"},
 
