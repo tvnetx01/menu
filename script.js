@@ -161,18 +161,18 @@
     "mewatch": {
       "name": "MEWATCH",
       "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10294130'&EntityType='Page'&EntityId='583113'&Width=900&Height=507&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",
-      "href": "go:uel1"},
+      "href": "go:uel6"},
 
    "vplus": {
       "name": "VISION+",
       "img": "https://blog.visionplus.id/wp-content/uploads/2022/08/Desain-tanpa-judul-7-1140x641.jpg",
-      "href": "go:uel2"},
+      "href": "go:uel5"},
 
 
    "rplus": {
       "name": "RCTI+",
       "img": "https://upload.wikimedia.org/wikipedia/id/thumb/d/d0/RCTI+.svg/1200px-RCTI+.svg.png",
-      "href": "go:uel3"},
+      "href": "go:uel4"},
 
 
     
