@@ -1,7 +1,7 @@
 {
   "groups": {
     
-    "eropa": [ "epl", "laliga", "seriea", "coppait", "bundesliga", "dfbpokal", "ligue1", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
+    "eropa": [ "epl", "laliga", "seriea", "coppait", "bundesliga", "dfbpokal", "ligue1", "eredivisi", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
     "asia": [ "arab", "korea", "jepang", "thailand", "malaysia", "vietnam", "singapura", "australia", "indonesia"],
     "indonesia": [ "liga1", "liga2", "proliga", "futsal"],
     "tvnasional": [ "rctivp", "rctihd", "mnctvvp", "gtvvp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
@@ -51,6 +51,11 @@
       "name": "SERIE A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/1649px-Serie_A.svg.png",
       "href": "go:seriea"},
+
+     "eredivisi": {
+      "name": "EREDIVISI",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eredivisie_nieuw_logo_2017-.svg/250px-Eredivisie_nieuw_logo_2017-.svg.png",
+      "href": "go:eredivisi"},
 
     "coppait": {
       "name": "COPPA ITALIA",
