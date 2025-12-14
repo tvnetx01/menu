@@ -4,7 +4,7 @@
     "eropa": [ "epl", "laliga", "seriea", "coppait", "bundesliga", "dfbpokal", "ligue1", "eredivisi", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
     "asia": [ "arab", "korea", "jepang", "thailand", "malaysia", "vietnam", "singapura", "australia", "indonesia"],
     "indonesia": [ "liga1", "liga2", "proliga", "futsal"],
-    "tvnasional": [ "rctivp", "rctihd", "mnctvvp", "gtvvp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
+    "tvnasional": [ "rctivp", "rctifhd", "rctifhd", "mnctvvp", "rctisd", "gtvvp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
     "tvsports": ["vvip", "bein2uk", "bein3vp", "bein3sg", "zsport2", "ap2sr", "zsport1", "skyllmx", "lltv", "m10", "ms10"],
 
 
@@ -193,7 +193,7 @@
       "href": "go:rctivp"},
 
         
-        "rctihd": {
+        "rctifhd": {
       "name": "RCTI R+",
       "img": "https://upload.wikimedia.org/wikipedia/id/thumb/d/d0/RCTI+.svg/1200px-RCTI+.svg.png",
       "href": "go:rctihd"},
@@ -204,11 +204,21 @@
       "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/MNCTV_logo.png",
       "href": "go:mnctvvp"},
 
+"rctihd": {
+      "name": "MNCTV R+",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/MNCTV_logo.png",
+      "href": "go:rctihd"},
+
         
         "gtvvp": {
       "name": "GTV V+",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_(2017).svg/1200px-GTV_(2017).svg.png",
       "href": "go:gtvvp"},
+
+ "rctisd": {
+      "name": "GTV R+",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_(2017).svg/1200px-GTV_(2017).svg.png",
+      "href": "go:rctisd"},
 
         
         "sctvfm": {
