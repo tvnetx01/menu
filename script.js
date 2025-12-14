@@ -4,7 +4,7 @@
     "eropa": [ "epl", "laliga", "seriea", "coppait", "bundesliga", "dfbpokal", "ligue1", "eredivisi", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
     "asia": [ "arab", "korea", "jepang", "thailand", "malaysia", "vietnam", "singapura", "australia", "indonesia"],
     "indonesia": [ "liga1", "liga2", "proliga", "futsal"],
-    "tvnasional": [ "rctivp", "rctifhd", "rctihd", "mnctvvp", "rctisd", "gtvvp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
+    "tvnasional": [ "rctivp", "rctifhd", "rctihd", "mnctvvp", "rctisd", "gtvvp", "inewsrp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
     "tvsports": ["vvip", "bein2uk", "bein3vp", "bein3sg", "zsport2", "ap2sr", "zsport1", "skyllmx", "lltv", "m10", "ms10"],
 
 
@@ -220,7 +220,11 @@
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_(2017).svg/1200px-GTV_(2017).svg.png",
       "href": "go:rctisd"},
 
-        
+        "inewsrp": {
+      "name": "INEWS R+",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/0/09/INews.png",
+      "href": "go:inews"},
+  
         "sctvfm": {
       "name": "SCTV FM",
       "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/SCTV_Logo.svg",
