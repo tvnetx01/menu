@@ -193,29 +193,29 @@
       "href": "go:rctivp"},
 
         
-        "rctifhd": {
+     "rctifhd": {
       "name": "RCTI R+",
       "img": "https://upload.wikimedia.org/wikipedia/id/thumb/d/d0/RCTI+.svg/1200px-RCTI+.svg.png",
-      "href": "go:rctihd"},
+      "href": "go:rctifhd"},
 
         
-        "mnctvvp": {
+     "mnctvvp": {
       "name": "MNCTV V+",
       "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/MNCTV_logo.png",
       "href": "go:mnctvvp"},
 
-"rctihd": {
+     "rctihd": {
       "name": "MNCTV R+",
       "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/MNCTV_logo.png",
       "href": "go:rctihd"},
 
         
-        "gtvvp": {
+     "gtvvp": {
       "name": "GTV V+",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_(2017).svg/1200px-GTV_(2017).svg.png",
       "href": "go:gtvvp"},
 
- "rctisd": {
+      "rctisd": {
       "name": "GTV R+",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_(2017).svg/1200px-GTV_(2017).svg.png",
       "href": "go:rctisd"},
