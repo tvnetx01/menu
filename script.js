@@ -9,7 +9,7 @@
 
 
    "streamalt": [ "score808", "mystake", "ppv"],
-   "seagames": ["seag-medali", "seag-football", "seag-badminton", "mewatch", "vplus", "rplus"],
+   "seagames": ["seag-medali", "seag-football", "seag-badminton", "mewatch", "vplus", "rplus","mwseag1","mwseag2" ,"mwseag3", "mwseag4","mwseag5" ,"mwseag6", "vpseag", "vpseag1","vpseag2" ,"vpseag3","vpseag4", "rpseag", "rpseag1","rpseag2" ,"rpseag3","rpseag4"],
    
    "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"],
    "race": ["motogp", "f1", "wsbk"]},
@@ -186,6 +186,101 @@
 
 
     
+"mwseag1": {
+      "name": "MEWATCH SEAG CH01",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%2710298961%27&EntityType=%27Item%27&EntityId=%27576059%27&Width=150&Height=129&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:mwseag1"
+    },
+"mwseag2": {
+      "name": "MEWATCH SEAG CH02",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%2710298974%27&EntityType=%27Item%27&EntityId=%27576060%27&Width=150&Height=129&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:mwseag2"
+    },
+"mwseag3": {
+      "name": "MEWATCH SEAG CH03",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%2710298979%27&EntityType=%27Item%27&EntityId=%27576061%27&Width=150&Height=129&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:mwseag3"
+    },
+  "mwseag4": {
+      "name": "MEWATCH SEAG CH04",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%2710298985%27&EntityType=%27Item%27&EntityId=%27576061%27&Width=150&Height=129&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:mwseag4"
+    },
+  "mwseag5": {
+      "name": "MEWATCH SEAG CH05",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%2710298989%27&EntityType=%27Item%27&EntityId=%27576061%27&Width=150&Height=129&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:mwseag5"
+    },
+  "mwseag6": {
+      "name": "MEWATCH SEAG CH06",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=85&ImageId=%2710299762%27&EntityType=%27Item%27&EntityId=%27580752%27&Width=150&Height=129&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:mwseag6"
+    },
+"mwseag": {
+      "name": "SCHEDULE",
+      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=45&ImageId=%2710495350%27&EntityType=%27Item%27&EntityId=%27587835%27&Width=448&Height=336&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "href": "go:uel6"
+    },
+
+  "vpseag": {
+      "name": "SCHEDULE",
+      "img": "https://www.visionplus.id/images/repository/145/600145-BANNER_COMPANION_SLIDER-l.JPG",
+      "href": "go:uel5"
+    },
+
+  "vpseag1": {
+      "name": "V+ SEAG CH01",
+      "img": "https://pisionx.pages.dev/player/img/vpseag1.png",
+      "href": "go:vpseag1"
+    },
+
+  "vpseag2": {
+      "name": "V+ SEAG CH02",
+      "img": "https://pisionx.pages.dev/player/img/vpseag2.png",
+      "href": "go:vpseag2"
+    },
+
+  "vpseag3": {
+      "name": "V+ SEAG CH03",
+      "img": "https://pisionx.pages.dev/player/img/vpseag3.png",
+      "href": "go:vpseag3"
+    },
+
+  "vpseag4": {
+      "name": "V+ SEAG CH04",
+      "img": "https://pisionx.pages.dev/player/img/vpseag4.png",
+      "href": "go:vpseag4"
+    },
+
+   "rpseag": {
+      "name": "SCHEDULE",
+      "img": "https://www.visionplus.id/images/repository/145/600145-BANNER_COMPANION_SLIDER-l.JPG",
+      "href": "go:uel4"
+    },
+
+  "rpseag1": {
+      "name": "R+ SEAG CH01",
+      "img": "https://pisionx.pages.dev/player/img/vpseag1.png",
+      "href": "go:rpseag1"
+    },
+
+  "rpseag2": {
+      "name": "R+ SEAG CH02",
+      "img": "https://pisionx.pages.dev/player/img/vpseag2.png",
+      "href": "go:rpseag2"
+    },
+
+  "rpseag3": {
+      "name": "R+ SEAG CH03",
+      "img": "https://pisionx.pages.dev/player/img/vpseag3.png",
+      "href": "go:rpseag3"
+    },
+
+  "rpseag4": {
+      "name": "R+ SEAG CH04",
+      "img": "https://pisionx.pages.dev/player/img/vpseag4.png",
+      "href": "go:rpseag4"
+    },
         
      "rctivp": {
       "name": "RCTI V+",
