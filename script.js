@@ -1,7 +1,7 @@
 {
   "groups": {
     
-    "eropa": [ "epl", "laliga", "seriea", "coppait", "bundesliga", "dfbpokal", "ligue1", "eredivisi", "portugal",  "belgia", "ucl","uel", "uecl", "carabao", "facup"],
+    "eropa": [ "carabao", "cdr", "epl", "laliga", "seriea", "coppait", "bundesliga", "dfbpokal", "ligue1", "eredivisi", "portugal",  "belgia", "ucl","uel", "uecl", "facup"],
     "asia": [ "arab", "korea", "jepang", "thailand", "malaysia", "vietnam", "singapura", "australia", "indonesia"],
     "indonesia": [ "liga1", "liga2", "proliga", "futsal"],
     "tvnasional": [ "rctivp", "rctifhd", "rctihd", "mnctvvp", "rctisd", "gtvvp", "inewsrp", "sctvfm", "sctvvp", "indosiarvp", "indosiarfm", "mojivp", "mojifm", "mentarivp", "inewsitv", "transtvvp", "trans7vp", "antvvp", "antvfm", "antvitv", "tvonevp", "rtvvp", "kompasvp", "metrovp", "tvrivp", "daitvvp", "mdtvvp", "bandungvp", "jaktvvp", "balivp", "jtvvp"],
@@ -45,6 +45,11 @@
       "laliga": {
       "name": "LALIGA",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/2048px-LaLiga_logo_2023.svg.png",
+      "href": "go:laliga"},
+
+    "cdr": {
+      "name": "COPA DEL REY",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Copa_Del_Rey_Official_Logo.png",
       "href": "go:laliga"},
     
       "seriea": {
