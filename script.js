@@ -62,9 +62,14 @@
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eredivisie_nieuw_logo_2017-.svg/250px-Eredivisie_nieuw_logo_2017-.svg.png",
       "href": "go:eredivisi"},
 
-    "coppait": {
+    "coppaitx": {
       "name": "COPPA ITALIA",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Coppa_Italia_-_Logo_2019.svg/803px-Coppa_Italia_-_Logo_2019.svg.png",
+      "href": "go:seriea"},
+
+     "coppait": {
+      "name": "SUPERCOPPA ITALIA",
+      "img": "https://upload.wikimedia.org/wikipedia/id/3/3c/Supercoppa_Italiana_logo.png",
       "href": "go:seriea"},
     
       "ucl": {
