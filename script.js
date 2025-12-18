@@ -169,13 +169,13 @@
       "href": "go:ligue15"},
 
 "seag-badminton": {
-      "name": "BADMINTON",
-      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=45&ImageId=%2710604489%27&EntityType=%27Item%27&EntityId=%27229966%27&Width=448&Height=252&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "name": "FUTSAL",
+      "img": "https://www.visionplus.id/images/repository/435/615435-SNAPSHOT-m.jpg",
       "href": "go:ligue14"},
 
 "seag-volley": {
       "name": "VOLLEYBALL",
-      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=45&ImageId=%2710660205%27&EntityType=%27Item%27&EntityId=%27229972%27&Width=448&Height=252&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
+      "img": "https://www.visionplus.id/images/repository/545/615545-SNAPSHOT-m.jpg",
       "href": "go:ligue13"},
 
     "mewatch": {
