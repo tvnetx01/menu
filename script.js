@@ -175,12 +175,12 @@
 
 "seag-badminton": {
       "name": "FUTSAL",
-      "img": "https://www.visionplus.id/images/repository/435/615435-SNAPSHOT-m.jpg",
+      "img": "hhttps://static.rctiplus.id/media/300/files/fta_rcti/Sports/0002025/Des/19/seagames_mens_futsal_thailand_vs_indonesia_landscape.jpg",
       "href": "go:ligue14"},
 
 "seag-volley": {
       "name": "VOLLEYBALL",
-      "img": "https://www.visionplus.id/images/repository/545/615545-SNAPSHOT-m.jpg",
+      "img": "https://static.rctiplus.id/media/300/files/fta_rcti/Sports/0002025/Des/19/seagames_mens_volleyball_final_landscape.jpg",
       "href": "go:ligue13"},
 
     "mewatch": {
