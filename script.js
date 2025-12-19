@@ -175,7 +175,7 @@
 
 "seag-badminton": {
       "name": "FUTSAL",
-      "img": "hhttps://static.rctiplus.id/media/300/files/fta_rcti/Sports/0002025/Des/19/seagames_mens_futsal_thailand_vs_indonesia_landscape.jpg",
+      "img": "https://static.rctiplus.id/media/300/files/fta_rcti/Sports/0002025/Des/19/seagames_mens_futsal_thailand_vs_indonesia_landscape.jpg",
       "href": "go:ligue14"},
 
 "seag-volley": {
