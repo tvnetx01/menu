@@ -9,7 +9,7 @@
 
 
    "streamalt": [ "score808", "mystake", "ppv"],
-   "seagames": ["seag-medali", "seag-football", "seag-volley",  "seag-badminton", "mewatch", "vplus", "rplus","mwseag1","mwseag2" ,"mwseag3", "mwseag4","mwseag5" ,"mwseag6", "vpseag1","vpseag2" ,"vpseag3","vpseag4", "rpseag1","rpseag2" ,"rpseag3","rpseag4"],
+   "seagames": ["seag-medali", "seag-badminton", "mewatch", "vplus", "rplus","mwseag1","mwseag2" ,"mwseag3", "mwseag4","mwseag5" ,"mwseag6", "vpseag1","vpseag2" ,"vpseag3","vpseag4", "rpseag1","rpseag2" ,"rpseag3","rpseag4"],
    
    "tvmovies": ["court1", "court2","court3", "bwf1", "bwf2", "bwf3"],
    "race": ["motogp", "f1", "wsbk"]},
@@ -168,20 +168,12 @@
       "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27png%27&Quality=45&ImageId=%2710658676%27&EntityType=%27Item%27&EntityId=%27587836%27&Width=448&Height=336&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
       "href": "go:uel3"},
 
-"seag-football": {
-      "name": "FOOTBALL",
-      "img": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%2710535030%27&EntityType=%27Item%27&EntityId=%27229329%27&Width=336&Height=189&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",
-      "href": "go:ligue15"},
 
 "seag-badminton": {
-      "name": "FUTSAL",
-      "img": "https://static.rctiplus.id/media/300/files/fta_rcti/Sports/0002025/Des/19/seagames_mens_futsal_thailand_vs_indonesia_landscape.jpg",
+      "name": "CLOSING CEREMONY",
+      "img": "https://static.rctiplus.id/media/500/files/fta_rcti/Sports/0002025/Des/20/seagames_closing_ceremony_landscape.jpg",
       "href": "go:ligue14"},
 
-"seag-volley": {
-      "name": "VOLLEYBALL",
-      "img": "https://static.rctiplus.id/media/300/files/fta_rcti/Sports/0002025/Des/19/seagames_mens_volleyball_final_landscape.jpg",
-      "href": "go:ligue13"},
 
     "mewatch": {
       "name": "ALL SPORTS (MEWATCH)",
