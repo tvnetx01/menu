@@ -20,12 +20,12 @@
       "liga1": {
       "name": "SUPER LEAGUE",
       "img": "https://upload.wikimedia.org/wikipedia/commons/7/72/BRI_Super_League_Indonesia.svg",
-      "href": "go:liga1"},
+      "href": "go:indo1"},
     
       "liga2": {
       "name": "INDONESIAN CHAMPIONSHIP",
       "img": "https://assets.ligaindonesiabaru.com/assets/img/competition-logo/89.png",
-      "href": "go:liga2"},
+      "href": "go:indo2"},
     
       "proliga": {
       "name": "PROLIGA",
