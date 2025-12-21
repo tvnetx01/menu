@@ -20,7 +20,7 @@
       "liga1": {
       "name": "SUPER LEAGUE",
       "img": "https://upload.wikimedia.org/wikipedia/commons/7/72/BRI_Super_League_Indonesia.svg",
-      "href": "go:indo1"},
+      "href": "go:indo"},
     
       "liga2": {
       "name": "INDONESIAN CHAMPIONSHIP",
